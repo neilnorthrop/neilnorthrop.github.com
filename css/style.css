@@ -1,0 +1,10 @@
+a {
+  font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #333a3e;
+  text-decoration: none;
+}
+
+a:hover {
+	color: #eee;
+}
