@@ -8,3 +8,19 @@ a {
 a:hover {
 	color: #eee;
 }
+
+h1 {
+  line-height: .5em;
+}
+
+#github_icon {
+  height: 25px ;
+}
+
+#docx_icon {
+  height: 32px;
+}
+
+#twitter_icon {
+  height: 30px;
+}
