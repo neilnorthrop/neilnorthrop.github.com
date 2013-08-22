@@ -14,7 +14,7 @@ h1 {
 }
 
 #github_icon {
-  height: 25px ;
+  height: 25px;
 }
 
 #docx_icon {
@@ -23,4 +23,12 @@ h1 {
 
 #twitter_icon {
   height: 30px;
+}
+
+#profile {
+  line-height: .25em;
+}
+
+#profile p {
+  overflow: scroll;
 }
