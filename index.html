@@ -6,12 +6,24 @@
         <link rel="stylesheet" href="css/webfonts/ss-social/webfonts/ss-social.css"/>
         <link rel="stylesheet" href="css/webfonts/ss-pika/webfonts/ss-pika.css"/>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/colorbox.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="img/favicon.ico" />
 
         <script src="js/jquery-1.10.1.min.js"></script>
         <script src="js/jquery.colorbox.js"></script>
         <script src="js/jquery.windows.js"></script>
+        <script>
+        $(document).ready(function(){
+                //Examples of how to assign the Colorbox event to elements
+                $(".group1").colorbox({rel:'group1'});
+
+                $("#click").click(function(){
+                    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+                    return false;
+                });
+            });
+        </script>
 
 
     </head>
@@ -56,8 +68,25 @@
         </section>
 
         <section id="3" class="window">
-            <pre>
-            </pre>
+            <p>
+                <ul>
+                    <li>
+                       <a class="group1 cboxElement" href="img/screenshots/28dayhug/Screen Shot 2013-08-22 at 11.28.43 AM.png" title="Me and my grandfather on the Ohoopee.">28dayhug Front Page</a>
+                   </li>
+                   <li>
+                        <a class="group1 cboxElement" href="img/screenshots/28dayhug/Screen Shot 2013-08-22 at 11.29.19 AM.png" title="Me and my grandfather on the Ohoopee.">28dayhug New Subscriber</a>
+                    </li>
+                    <li>
+                        <a class="group1 cboxElement" href="img/screenshots/28dayhug/Screen Shot 2013-08-22 at 11.29.35 AM.png" title="Me and my grandfather on the Ohoopee.">28dayhug Stripe Payment Proccessor</a>
+                    </li>
+                    <li>
+                        <a class="group1 cboxElement" href="img/screenshots/28dayhug/Screen Shot 2013-08-22 at 11.36.35 AM.png" title="Me and my grandfather on the Ohoopee.">28dayhug Stripe Code Sample</a>
+                    </li>
+                    <li>
+                        <a class="group1 cboxElement" href="img/screenshots/28dayhug/Screen Shot 2013-08-22 at 11.36.57 AM.png" title="Me and my grandfather on the Ohoopee.">28dayhug Stripe Code Sample 2</a>
+                    </li>
+                </ul>
+            </p>
         </section>
 
         <section id="4" class="window">
