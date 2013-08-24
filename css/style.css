@@ -32,3 +32,15 @@ h1 {
 #profile p {
   overflow: scroll;
 }
+
+.hidden {
+  display: none;
+}
+
+#photo_slide {
+  display: inline-block;
+}
+
+#photo_slide a:hover {
+  color: grey;
+}
