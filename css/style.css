@@ -42,5 +42,23 @@ h1 {
 }
 
 #photo_slide a:hover {
-  color: grey;
+  color: gray;
+}
+
+#dayhug_header {
+  -webkit-box-shadow: 3px 3px 1px #ccc;
+  -moz-box-shadow: 3px 3px 1px #ccc;
+  box-shadow: 3px 3px 1px #ccc;
+}
+
+.dayhug_title {
+  line-height: .25em;
+}
+
+.dayhug_title a {
+  color: yellow;
+}
+
+.dayhug_title a:hover {
+  color: white;
 }
