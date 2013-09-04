@@ -89,6 +89,22 @@
                     <li class="hidden">
                         <a class="group1 cboxElement" href="img/screenshots/28dayhug/28dayhug_5.png"></a>
                     </li>
+                    <li>
+                        <p>-Our group took an existing WordPress website and migrated it to a Rails environment. The process included cleaning out code that was no longer used, adding user accounts, and integrating payment processing through the Stripe API. I worked on implementing the Stripe payment processing and later used the Faker gem in Ruby to create 100's of fake users in our database.</p>
+                    </li>
+                        <ul>
+                            <li>-Technologies I used:</li>
+                            <li>-Rails</li>
+                            <li>-Ruby</li>
+                            <li>-Stripe API</li>
+                            <li>-Faker</li>
+                            <li>-JSON</li>
+                            <li>-Pry</li>
+                            <li>-MySQL</li>
+                        </ul>
+                    <li>
+                        <p>-I first spent time taking a look at a few different payment processors documentation to figure out which one was the simplest to use and worked for our project. It came down to cheddergetter.com and stripe.com in which we chose Stripe for its simplicity. I read over the documentation, signed up for a test api key, and used Pry to make api calls to Stripe creating customer tokens, charge tokens, and new subscriptions. Joesph and I got Stripe up and running on the website and worked together to understand how Stripe uses our forms and creates tokens.</p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -105,6 +121,21 @@
                     </li>
                     <li class="hidden">
                         <a class="group2 cboxElement" href="img/screenshots/dotameter/dota2_scraping.png"></a>
+                    </li>
+                    <li>
+                        <p>-Built from the ground up, we wanted to create a website that players of Dota 2 could go to and get all the statistical data they need for the game. We also wanted to build dynamic graphs using all the statistical data we aggregated.</p>
+                    </li>
+                        <ul>
+                            <li>-Technologies I used:</li>
+                            <li>-Mechanize</li>
+                            <li>-Nokogiri</li>
+                            <li>-JSON</li>
+                            <li>-Ruby</li>
+                            <li>-Rails</li>
+                            <li>-Mongo DB</li>
+                        </ul>
+                    <li>
+                        <p>-Our group spent the first week hashing out the details of what we wanted the site to look like and which database we wanted to use based on the data we wanted to store. After that, I got started on building a JSON file of all the Heroes stats data. I found that Dota 2's wiki page had the best data up-to-date. I called the first hero page crawling through the data until I found the necessary stats. Next, I took all the stats for that one hero and build a JSON file. Finally I passed in each heroes name and added the JSON data to the main JSON file.</p>
                     </li>
                 </ul>
 
