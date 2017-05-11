@@ -62,3 +62,27 @@ h1 {
 .dayhug_title a:hover {
   color: white;
 }
+
+@media only screen and (max-width: 760px) {
+  body {
+    font-size: .90em;
+  }
+  title {
+    font-size: .75em;
+  }
+  #main-img {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    font-size: .75em;
+  }
+  title {
+    font-size: .5em;
+  }
+  #main-img {
+    width: 50%;
+  }
+}
