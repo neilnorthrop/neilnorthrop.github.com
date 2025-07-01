@@ -1,4 +1,4 @@
-subl Things I would like to add to my portfolio:
+Things I would like to add to my portfolio:
 
 1. On window.4 - start showing off my work
                - include pictures

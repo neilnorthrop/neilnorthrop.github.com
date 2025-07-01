@@ -33,7 +33,7 @@ var that = this,
     function windows( element, customOptions ) {
 
         this.element = element;
-        options = options = $.extend( {}, defaults, customOptions) ;
+        options = $.extend( {}, defaults, customOptions) ;
         this._defaults = defaults;
         this._name = pluginName;
         $windows.push(element);
