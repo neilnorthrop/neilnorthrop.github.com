@@ -62,7 +62,7 @@ pre {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: -170px;
+  transform: translateY(-50%);
 }
 /* line 31, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(1) .content i {
@@ -86,8 +86,7 @@ pre {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -180px;
-  margin-left: -160px;
+  transform: translate(-50%, -50%);
 }
 /* line 55, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(2) .content h2 {
@@ -108,7 +107,7 @@ pre {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: -230px;
+  transform: translateY(-50%);
 }
 /* line 73, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(3) .content h2 {
@@ -133,7 +132,7 @@ pre {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -220px 0 0 -450px;
+  transform: translate(-50%, -50%);
 }
 
 /* line 102, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
@@ -141,7 +140,7 @@ pre {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -350px 0 0 -450px;
+  transform: translate(-50%, -50%);
 }
 /* line 108, /Users/Jonas/Projects/repo/windows/scss/demo/_demo.scss */
 .window:nth-child(5) h1 {
@@ -157,7 +156,7 @@ pre {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -100px 0 0 -100px;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -178,7 +177,8 @@ pre {
 
 /* line 38, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
 #wrap {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin: 13% auto 0;
 }
 
@@ -206,7 +206,7 @@ pre {
 /* line 69, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
 span.title {
   color: #d6d6e7;
-  font: 15px/49px BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
+  font: 0.9375rem/3.0625rem BrandonText-Bold, Futura, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   height: 50px;
   width: 230px;
@@ -230,7 +230,7 @@ span.title {
 
 /* line 93, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
 #btn-wrap:hover span.title {
-  font-size: 14px;
+  font-size: 0.875rem;
   width: 135px;
 }
 
@@ -256,18 +256,18 @@ span.title {
 /* line 116, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
 #info p {
   width: 65px;
-  margin: 12px 17px 0 0;
+  margin: 0.75rem 17px 0 0;
   position: absolute;
   right: 0;
   color: #7c7c84;
-  font: 11px/12px Helvetica, Arial, sans-serif;
+  font: 0.6875rem/0.75rem Helvetica, Arial, sans-serif;
   text-align: left;
 }
 
 /* line 126, /Users/Jonas/Projects/repo/windows/scss/demo/_btn.scss */
 .boxtuffs {
   color: #7c7c84;
-  font: 12px Helvetica, Arial, sans-serif;
+  font: 0.75rem Helvetica, Arial, sans-serif;
   text-shadow: 0 -1px 0 black;
   text-decoration: none;
   -webkit-transition: all .2s ease-out;
@@ -328,3 +328,4 @@ html, body {
   background: #231f20;
   top: 500%;
 }
+

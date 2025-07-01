@@ -75,6 +75,22 @@ h1 {
   }
 }
 
+@media (max-width: 992px) {
+  .dayhug_title {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  .window {
+    position: static;
+    height: auto;
+  }
+  .content {
+    margin: 20px auto;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   body {
     font-size: .75em;
